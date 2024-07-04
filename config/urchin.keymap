@@ -105,9 +105,9 @@
         nums {
             bindings = <
   &kp NUMBER_1  &kp NUMBER_2  &kp N3     &kp N4    &kp N5    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0
-  &kp LCTRL     &kp LALT      &kp LSHFT  &kp LGUI  &trans    &trans  &kp LGUI  &kp LSHFT  &kp LALT  &kp LCTRL
-  &trans        &trans        &trans     &trans    &trans    &trans  &trans    &trans     &trans    &trans
-                                         &none     &trans    &mo 3   &trans
+  &kp LCTRL     &kp LALT      &kp LSHFT  &kp LGUI  &none     &none   &kp LGUI  &kp LSHFT  &kp LALT  &kp LCTRL
+  &none         &none         &none      &none     &none     &none   &none     &none      &none     &none
+                                         &none     &none     &mo 3   &none
             >;
         };
 
