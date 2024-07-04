@@ -83,9 +83,9 @@
         default_layer {
             label = "Base";
             bindings = <
-  &dtdq        &kp W       &kp E        &kp R       &kp T        &kp Y             &kp U       &kp I         &kp O       &kp P
-  &qt LCTRL A  &qt LALT S  &qt LSHFT D  &qt LGUI F  &kp G        &kp H             &qt RGUI J  &qt RSHIFT K  &qt RALT L  &qt RCTRL BSPC
-  &kp Z        &kp X       &kp C        &kp V       &kp B        &kp N             &kp M       &kp COMMA     &kp DOT     &kp FSLH
+  &dtdq        &kp W       &kp E        &kp R       &kp T        &kp Y             &kp U       &kp I         &kp O             &kp P
+  &qt LCTRL A  &qt LALT S  &qt LSHFT D  &qt LGUI F  &kp G        &kp H             &qt RGUI J  &qt RSHIFT K  &qt RALT L        &qt RCTRL ENTER
+  &kp Z        &kp X       &kp C        &kp V       &kp B        &kp N             &kp M       &kp COMMA     &kp SINGLE_QUOTE  &kp FSLH
                                         &mo 2       &kp SPACE    &lqt 1 BACKSPACE  &none
             >;
         };
@@ -94,19 +94,19 @@
 
         coding_layer {
             bindings = <
-  &trans  &trans     &kp DOLLAR       &trans     &trans        &trans          &kp UNDERSCORE  &trans        &trans     &trans
-  &trans  &kp CARET  &qt LSHFT MINUS  &trans     &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans
-  &trans  &trans     &caps_word       &trans     &trans        &kp SEMICOLON   &trans          &trans        &trans     &trans
-                                      &kp COMMA  &kp PERIOD    &trans          &none
+  &kp TILDE        &kp POUND  &kp DOLLAR       &trans       &kp TAB          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp EXCLAMATION  &kp CARET  &qt LSHFT MINUS  &kp PERCENT  &kp AMPERSAND    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &kp SINGLE_QUOTE
+  &kp AT_SIGN      &trans     &caps_word       &trans       &trans           &kp SEMICOLON         &kp EQUAL       &trans                 &trans            &kp BSLH
+                                               &kp COMMA    &kp PERIOD       &none                 &none
             >;
         };
 
         nums {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans    &trans  &trans
+  &kp NUMBER_1  &kp NUMBER_2  &kp N3     &kp N4    &kp N5    &kp N6  &kp N7    &kp N8     &kp N9    &kp N0
+  &kp LCTRL     &kp LALT      &kp LSHFT  &kp LGUI  &trans    &trans  &kp LGUI  &kp LSHFT  &kp LALT  &kp LCTRL
+  &trans        &trans        &trans     &trans    &trans    &trans  &trans    &trans     &trans    &trans
+                                         &trans    &trans    &trans  &trans
             >;
         };
     };
