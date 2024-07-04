@@ -95,10 +95,10 @@
 
         coding_layer {
             bindings = <
-  &kp TILDE        &kp POUND      &kp DOLLAR       &kp ASTERISK  &kp TAB          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &kp EXCLAMATION  &kp CARET      &qt LSHFT MINUS  &kp PERCENT   &kp AMPERSAND    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &kp SINGLE_QUOTE
-  &kp AT_SIGN      &kp LESS_THAN  &caps_word       &kp SLASH     &kp PLUS         &kp SEMICOLON         &kp EQUAL       &kp COLON              &kp GREATER_THAN  &kp BSLH
-                                                   &kp COMMA     &kp PERIOD       &none                 &none
+  &kp TILDE              &kp POUND           &kp DOLLAR       &kp ASTERISK      &kp TAB          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &qt LCTRL EXCLAMATION  &qt CARET LEFT_ALT  &qt LSHFT MINUS  &qt LCMD PERCENT  &kp AMPERSAND    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &kp SINGLE_QUOTE
+  &kp AT_SIGN            &kp LESS_THAN       &caps_word       &kp SLASH         &kp PLUS         &kp SEMICOLON         &kp EQUAL       &kp COLON              &kp GREATER_THAN  &kp BSLH
+                                                              &kp COMMA         &kp PERIOD       &none                 &none
             >;
         };
 
