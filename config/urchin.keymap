@@ -85,10 +85,10 @@
         default_layer {
             label = "Base";
             bindings = <
-  &dtdq        &kp W       &kp E        &kp R       &kp T        &kp Y             &kp U       &kp I         &kp O       &kp P
-  &qt LCTRL A  &qt LALT S  &qt LSHFT D  &qt LGUI F  &kp G        &kp H             &qt RGUI J  &qt RSHIFT K  &qt RALT L  &qt RCTRL SEMICOLON
-  &kp Z        &kp X       &kp C        &kp V       &kp B        &kp N             &kp M       &kp COMMA     &kp PERIOD  &kp SINGLE_QUOTE
-                                        &lqt 2 TAB  &kp SPACE    &lqt 1 BACKSPACE  &kp ENTER
+  &dtdq        &kp W       &kp E        &kp R       &kp T           &kp Y             &kp U       &kp I         &kp O       &kp P
+  &qt LCTRL A  &qt LALT S  &qt LSHFT D  &qt LGUI F  &kp G           &kp H             &qt RGUI J  &qt RSHIFT K  &qt RALT L  &qt RCTRL SEMICOLON
+  &kp Z        &kp X       &kp C        &kp V       &kp B           &kp N             &kp M       &kp COMMA     &kp PERIOD  &kp SINGLE_QUOTE
+                                        &lqt 2 TAB  &lqt 1 SPACE    &lqt 1 BACKSPACE  &kp ENTER
             >;
         };
 
@@ -99,7 +99,7 @@
   &kp TILDE              &kp POUND           &kp DOLLAR       &kp ASTERISK      &kp TAB          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
   &qt LCTRL EXCLAMATION  &qt CARET LEFT_ALT  &qt LSHFT MINUS  &qt LCMD PERCENT  &kp AMPERSAND    &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &kp SINGLE_QUOTE
   &kp AT_SIGN            &kp LESS_THAN       &caps_word       &kp SLASH         &kp PLUS         &kp SEMICOLON         &kp EQUAL       &kp COLON              &kp GREATER_THAN  &kp BSLH
-                                                              &kp COMMA         &kp PERIOD       &none                 &none
+                                                              &kp COMMA         &kp SEMICOLON    &kp COLON             &kp PERIOD
             >;
         };
 
