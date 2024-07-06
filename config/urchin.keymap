@@ -95,7 +95,7 @@
         default_layer {
             label = "Base";
             bindings = <
-  &dtdq         &kp W        &kp E         &kp R        &kp T           &kp Y             &kp U        &kp I                &kp O                    &kp P
+  &dtdq         &kp W        &kp E         &kp R        &kp T           &kp Y             &kp U        &kp I                &kp O                    &qt DEL P
   &hrm LCTRL A  &hrm LALT S  &hrm LSHFT D  &hrm LGUI F  &kp G           &kp H             &hrm RGUI J  &hrm RSHIFT K        &hrm RALT L              &hrm RCTRL SEMICOLON
   &kp Z         &kp X        &kp C         &kp V        &kp B           &kp N             &kp M        &qt LESS_THAN COMMA  &qt GREATER_THAN PERIOD  &qt QUESTION SINGLE_QUOTE
                                            &lqt 2 TAB   &lqt 1 SPACE    &lqt 1 BACKSPACE  &kp ENTER
@@ -134,7 +134,7 @@
         windows_default {
             label = "windows_base";
             bindings = <
-  &dtdq        &kp W        &kp E         &kp R         &kp T        &kp Y             &kp U         &kp I                &kp O                    &kp P
+  &dtdq        &kp W        &kp E         &kp R         &kp T        &kp Y             &kp U         &kp I                &kp O                    &qt DEL P
   &hrm LGUI A  &hrm LALT S  &hrm LSHFT D  &hrm LCTRL F  &kp G        &kp H             &hrm RCTRL J  &hrm RSHIFT K        &hrm RALT L              &hrm RGUI SEMICOLON
   &kp Z        &kp X        &kp C         &kp V         &kp B        &kp N             &kp M         &qt LESS_THAN COMMA  &qt GREATER_THAN PERIOD  &qt QUESTION SINGLE_QUOTE
                                           &lqt 2 TAB    &kp SPACE    &lqt 1 BACKSPACE  &kp ENTER
