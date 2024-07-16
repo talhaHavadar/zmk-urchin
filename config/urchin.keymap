@@ -108,7 +108,7 @@
   &qt ESC Q    &kp W        &kp E         &kp R         &kp T           &kp Y             &kp U         &kp I                &kp O                    &qt DEL P
   &hrm LGUI A  &hrm LALT S  &hrm LSHFT D  &hrm LCTRL F  &kp G           &kp H             &hrm RCTRL J  &hrm RSHIFT K        &hrm RALT L              &hrm RGUI SEMICOLON
   &kp Z        &kp X        &kp C         &kp V         &kp B           &kp N             &kp M         &qt LESS_THAN COMMA  &qt GREATER_THAN PERIOD  &qt QUESTION SINGLE_QUOTE
-                                          &lqt 3 TAB    &lqt 2 SPACE    &lqt 2 BACKSPACE  &kp ENTER
+                                          &lqt 3 TAB    &lqt 5 SPACE    &lqt 5 BACKSPACE  &kp ENTER
             >;
         };
 
@@ -136,6 +136,15 @@
   &bootloader   &to 1       &to 0         &none         &kp F11         &kp F12       &none         &none   &none   &bootloader
   &out OUT_TOG  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4  &none   &none   &unstick
                                           &none         &none           &none         &none
+            >;
+        };
+
+        coding_layer_win {
+            bindings = <
+  &kp TILDE                   &kp POUND            &kp DOLLAR        &kp ASTERISK        &kp PLUS          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &hrm LEFT_META EXCLAMATION  &hrm LEFT_ALT CARET  &hrm LSHFT MINUS  &hrm LCTRL PERCENT  &kp AMPERSAND     &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &qt GRAVE DOUBLE_QUOTES
+  &kp AT_SIGN                 &kp LESS_THAN        &caps_word        &kp SLASH           &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp EQUAL       &kp PIPE               &kp GREATER_THAN  &kp BSLH
+                                                                     &kp COMMA           &kp SEMICOLON     &kp COLON             &kp PERIOD
             >;
         };
     };
