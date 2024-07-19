@@ -114,7 +114,7 @@
 
         coding_layer {
             bindings = <
-  &kp TILDE               &kp POUND            &kp DOLLAR        &kp ASTERISK       &kp PLUS          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp TILDE               &kp HASH             &kp DOLLAR        &kp ASTERISK       &kp PLUS          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
   &hrm LCTRL EXCLAMATION  &hrm LEFT_ALT CARET  &hrm LSHFT MINUS  &hrm LCMD PERCENT  &kp AMPERSAND     &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &qt GRAVE DOUBLE_QUOTES
   &kp AT_SIGN             &kp LESS_THAN        &caps_word        &kp SLASH          &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp EQUAL       &kp PIPE               &kp GREATER_THAN  &kp BSLH
                                                                  &kp COMMA          &kp SEMICOLON     &kp COLON             &kp PERIOD
@@ -141,7 +141,7 @@
 
         coding_layer_win {
             bindings = <
-  &kp TILDE                   &kp POUND            &kp DOLLAR        &kp ASTERISK        &kp PLUS          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp TILDE                   &kp HASH             &kp DOLLAR        &kp ASTERISK        &kp PLUS          &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
   &hrm LEFT_META EXCLAMATION  &hrm LEFT_ALT CARET  &hrm LSHFT MINUS  &hrm LCTRL PERCENT  &kp AMPERSAND     &kp LEFT_ARROW        &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT         &qt GRAVE DOUBLE_QUOTES
   &kp AT_SIGN                 &kp LESS_THAN        &caps_word        &kp SLASH           &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp EQUAL       &kp PIPE               &kp GREATER_THAN  &kp BSLH
                                                                      &kp COMMA           &kp SEMICOLON     &kp COLON             &kp PERIOD
